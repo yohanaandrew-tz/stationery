@@ -1,0 +1,234 @@
+<!doctype html>
+<html>
+ <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <head>
+        <title>Yohn Stationery</title>
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        
+        <!-- The div for top & navbar-->
+        <div class="w3-container w3-blue">
+            <img src="images/logo.jpg" width="65" height="65" id="logo"> <span class="w3-container w3-right"><h3>Yohn Stationery</h3></span>
+        </div>
+        <!--Nav bar for large and medium screen-->
+        <div class="w3-bar w3-blue w3-hide-small">
+            <a href="#" class="w3-button"><i class="fa fa-home"></i></a>
+            <a href="service.html" class="w3-button">Services</a>
+            <a href="service.html#product" class="w3-button">Products</a>
+            <a href="#contact" class="w3-button">Contacts</a>
+            <a href="#about" class="w3-button">About</a>
+        </div>
+
+        <!--Dropdown icon for small screen, is hidden for large & medium screen-->
+        <div class="w3-bar w3-blue w3-hide-large w3-hide-medium">
+            
+            <div class="w3-dropdown-hover">
+                <button class="w3-button"><i class="fa fa-bars"></i></button>
+                <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                    <a href="" class="w3-bar-item w3-button"><i class="fa fa-home"></i></a>
+                    <a href="service.html" class="w3-bar-item w3-button">Services</a>
+                    <a href="service.html#product" class="w3-bar-item w3-button">Products</a>
+                    <a href="#contact" class="w3-bar-item w3-button">Contacts</a>
+                    <a href="#about" class="w3-bar-item w3-button">About</a>
+
+                </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- The div for slideshow images -->
+        <div>
+            <div class="w3-content w3-display-container">
+                <img class="mySlides" src="images/slide1.jpg" style="width:100%">
+                <img class="mySlides" src="images/slide2.jpeg" style="width:100%">
+                <img class="mySlides" src="images/slide3.jpg" style="width:100%">
+                
+              
+                <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+                <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+              </div>
+              
+              <script type="text/javascript" src="js/slideshow.js">
+              
+              </script>
+              
+        </div>
+        <div id="main-container"></div>
+        <div class="w3-card-4 w3-margin">
+            <div class="w3-container w3-blue"><h3>About us</h3></div>
+            <div class="w3-container w3-third"><img src="images/disc.jpg" width="65%"></div>
+            <div class="w3-container w3-rest">
+                <p id="about"><b>Yohn Stationery</b> provides commercially manufactured writing 
+                materials, including cut papers, envelopes, writing implements and office supplies.
+            Located at <b>Nyakato street, Kahama Municipal Council</b></p>
+                    <p>
+                        We also provides the following Services
+                        <ul>
+                            <li>Printing documents</li>
+                            <li>Scanning</li>
+                            <li>Photocopying & pasport</li>
+                            <li>Binding and Lamination</li>
+                        </ul>
+                    </p>
+                    <p><b>Working hours</b></p>
+                    <ul>
+                        <li>Monday to Friday - 07:30am to 04:30pm</li>
+                        <li>Saturday - 07:30am to 02:30pm</li>
+                    </ul>
+            </div>
+        </div><br>
+        <div class="w3-container">
+            <h4>Featured Services</h4>
+        </div>
+
+       <div class="w3-container">
+        <div class="w3-card-4 w3-third w3-margin">
+            <div class="w3-container w3-blue"><h5>Printing</h5></div>
+            <img src="images/print.jpg" width="100%">
+            <ul>
+                <li><span class="w3-badge w3-red">200TSZ</span> Colored</li>
+                <li>High resolution</li>
+            </ul>
+        </div>
+        <div class="w3-card-4 w3-third w3-margin">
+            <div class="w3-container w3-blue"><h5>Scanning</h5></div>
+            <img src="images/scan.jpg" width="100%">
+            <ul>
+                <li><span class="w3-badge w3-red">500TSZ</span> High quality</li>
+                <li>High resolution</li>
+            </ul>
+        </div>
+        <div class="w3-card-4 w3-rest w3-margin">
+            <div class="w3-container w3-blue"><h5>Binding</h5></div>
+            <img src="images/binding.png" width="100%">
+            <ul>
+                <li><span class="w3-badge w3-red">1000TSZ</span> High quality</li>
+                <li>More durable</li>
+            </ul>
+        </div>
+        </div>
+
+        <div class="w3-container">
+            <div class="w3-card-4 w3-third w3-margin">
+                <div class="w3-container w3-blue"><h5>Internet service</h5></div>
+                <img src="images/internet.jpg" width="100%">
+                <ul>
+                    <li><span class="w3-badge w3-red">1000TSZ</span> per 30min</li>
+                    <li>High speed network</li>
+                </ul>
+            </div>
+            <div class="w3-card-4 w3-third w3-margin">
+                <div class="w3-container w3-blue"><h5>Lamination</h5></div>
+                <img src="images/lamination.jpg" width="100%">
+                <ul>
+                    <li><span class="w3-badge w3-red">1000TSZ</span> High quality</li>
+                    <li>More durable</li>
+                </ul>
+    
+            </div>
+            <div class="w3-card-4 w3-rest w3-margin">
+                <div class="w3-container w3-blue"><h5>Typing</h5></div>
+                <img src="images/type.jpg" width="100%">
+                <ul>
+                    <li><span class="w3-badge w3-red">500TSZ</span> per page</li>
+                    <li>High speed & accuracy</li>
+                </ul>
+    
+            </div>
+            </div><br>
+            <div class="w3-container">
+                <h4>Featured Products</h4>
+            </div>
+
+            <div class="w3-container">
+                <div class="w3-card-4 w3-third w3-margin">
+                    <div class="w3-container w3-blue"><h5>Stapplers & Stapple</h5></div>
+                    <img src="images/s1.jpg" width="100%">
+                    <ul>
+                        <li><span class="w3-badge w3-red">3000TSZ</span> High quality</li>
+                        <li>More durable</li>
+                    </ul>
+        
+                </div>
+                <div class="w3-card-4 w3-third w3-margin">
+                    <div class="w3-container w3-blue"><h5>Office files</h5></div>
+                    <img src="images/s2.png" width="100%">
+                    <ul>
+                        <li><span class="w3-badge w3-red">2000TSZ</span> High quality</li>
+                        <li>More durable</li>
+                    </ul>
+                </div>
+                <div class="w3-card-4 w3-rest w3-margin">
+                    <div class="w3-container w3-blue"><h5>Notebooks</h5></div>
+                    <img src="images/s3.jpg" width="100%">
+                    <ul>
+                        <li><span class="w3-badge w3-red">2500TSZ</span> High quality</li>
+                        <li>More durable</li>
+                    </ul>
+                </div>
+                </div>
+        
+                <div class="w3-container">
+                    <div class="w3-card-4 w3-third w3-margin">
+                        <div class="w3-container w3-blue"><h5>A4 size papers</h5></div>
+                        <img src="images/s4.jpg" width="100%">
+                        <ul>
+                            <li><span class="w3-badge w3-red">12o00TSZ</span> High quality</li>
+                            <li>500 sheets/bundle</li>
+                        </ul>
+                    </div>
+                    <div class="w3-card-4 w3-third w3-margin">
+                        <div class="w3-container w3-blue"><h5>Colored Pencils</h5></div>
+                        <img src="images/s5.jpg" width="100%">
+                        <ul>
+                            <li><span class="w3-badge w3-red">200TSZ</span> High quality</li>
+                            <li>Beautiful drawing</li>
+                        </ul>
+                    </div>
+                    <div class="w3-card-4 w3-rest w3-margin">
+                        <div class="w3-container w3-blue"><h5>Pens</h5></div>
+                        <img src="images/s6.jpg" width="100%">
+                        <ul>
+                            <li><span class="w3-badge w3-red">200TSZ</span> High quality</li>
+                            <li>More durable</li>
+                        </ul>
+                    </div>
+                    </div>
+                    <div class="w3-card-4 w3-margin">
+                        <div class="w3-container w3-blue"><h4>Contact us</h4></div>
+                        <form style="padding: 10px;" action="php/sub.php" method="post">
+                        <label><i class="fa fa-user" style="color:blue; font-size: 24px;"></i></label>
+                        <input class="w3-input" type="text" name="cname" placeholder="Enter your name" required>
+                        <label><i class="fa fa-envelope" style="color:blue; font-size: 24px;"></i></label>
+                        <input class="w3-input" type="email" name="email" placeholder="Enter your email" required>
+                        <label><i class="fa fa-comment" style="color:blue; font-size: 24px;"></i></label>
+                        <input class="w3-input" type="text" name="meseji" placeholder="Type a short comment here" required><br>
+                        <input class="w3-button w3-blue" type="submit" value="Submit">
+                        <br>
+                        </form>
+                    </div>
+
+
+        </div>
+        
+    </body><br>
+    <a id="ctc" href="https://wa.me/+255753940450?text=Hi"><i class="fa fa-whatsapp" style="font-size:48px;"></i></a>
+    <footer id="contact">
+       <div class="w3-bar">
+        <a href="https://wa.me/+255753940450?text=Hi" class="w3-button"><i class="fa fa-whatsapp" style="font-size: 24px;"></i></a>
+        <a href="http://m.facebook.com/yohana.andrew.777" class="w3-button"><i class="fa fa-facebook-square" style="font-size: 24px;"></i></a>
+        <a href="http://instagram.com/yohana_andrew_tz" class="w3-button"><i class="fa fa-instagram" style="font-size: 24px;"></i></a>
+        <a href="mailto:yohanaandrew129@gmail.com" class="w3-button"><i class="fa fa-envelope" style="font-size: 24px;"></i></a>
+        <a href="https://telegram.me/yohana_andrew_tz" class="w3-button"><i class="fa fa-telegram" style="font-size: 24px;"></i></a>
+       </div>
+       <p><i class="fa fa-map-marker"></i>  Nyakato, Kahama-Tanzania</p><hr>
+       &copy: 2022 Design by <b><a href="http://yohana.atwebpages.com">Yohana</a></b>
+       <p>Tel: +255753940450</p>
+    </footer>
+</html>
