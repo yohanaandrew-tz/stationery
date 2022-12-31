@@ -1,5 +1,5 @@
 # stationery website
-- It is website for [stationery](https://yohanaandrew-tz.github.io/stationery/) shop.
+- It is **Responsive** website for [stationery](https://yohanaandrew-tz.github.io/stationery/) shop.
 - It is the frontend with little backend features website
 
 - Languages & tools involved
